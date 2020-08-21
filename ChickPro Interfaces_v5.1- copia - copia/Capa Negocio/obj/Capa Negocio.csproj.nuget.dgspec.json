@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Asus\\Documents\\QUINTO_SEMESTRE\\Propietarios\\ChickPro Interfaces_v5.1- copia - copia\\Capa Negocio\\Capa Negocio.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Asus\\Documents\\QUINTO_SEMESTRE\\Propietarios\\ChickPro Interfaces_v5.1- copia - copia\\Capa Datos\\Capa Datos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\Documents\\QUINTO_SEMESTRE\\Propietarios\\ChickPro Interfaces_v5.1- copia - copia\\Capa Datos\\Capa Datos.csproj",
+        "projectName": "Capa Datos",
+        "projectPath": "C:\\Users\\Asus\\Documents\\QUINTO_SEMESTRE\\Propietarios\\ChickPro Interfaces_v5.1- copia - copia\\Capa Datos\\Capa Datos.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Asus\\Documents\\QUINTO_SEMESTRE\\Propietarios\\ChickPro Interfaces_v5.1- copia - copia\\Capa Negocio\\Capa Negocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\Documents\\QUINTO_SEMESTRE\\Propietarios\\ChickPro Interfaces_v5.1- copia - copia\\Capa Negocio\\Capa Negocio.csproj",
+        "projectName": "Capa Negocio",
+        "projectPath": "C:\\Users\\Asus\\Documents\\QUINTO_SEMESTRE\\Propietarios\\ChickPro Interfaces_v5.1- copia - copia\\Capa Negocio\\Capa Negocio.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Documents\\QUINTO_SEMESTRE\\Propietarios\\ChickPro Interfaces_v5.1- copia - copia\\Capa Negocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\Asus\\Documents\\QUINTO_SEMESTRE\\Propietarios\\ChickPro Interfaces_v5.1- copia - copia\\Capa Datos\\Capa Datos.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Documents\\QUINTO_SEMESTRE\\Propietarios\\ChickPro Interfaces_v5.1- copia - copia\\Capa Datos\\Capa Datos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
